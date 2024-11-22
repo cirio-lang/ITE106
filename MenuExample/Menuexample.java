@@ -54,7 +54,6 @@ class MenuActionListener implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        // Display message dialog with details of the action
         JOptionPane.showMessageDialog(frame, 
             "Got an ActionEvent at " + new Date(e.getWhen()) + 
             " from " + e.getSource().getClass().getName());
